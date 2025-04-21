@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .top-languages {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 14px;
+      color: #65676b;
+    }
+
+    .facebook-logo {
+      margin-bottom: 20px;
+    }
+
+    .facebook-logo img {
+      width: 48px;
+      height: 48px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: #050505;
+    }
+
+    p {
+      margin-top: 6px;
+      color: #65676b;
+      font-size: 15px;
+    }
+
+    .btn {
+      width: 90%;
+      max-width: 400px;
+      padding: 14px;
+      margin: 10px 0;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .login-btn {
+      background-color: #1877f2;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .create-btn {
+      background-color: #e7f3ff;
+      color: #1877f2;
+    }
+
+    .create-btn:hover {
+      background-color: #d7eaff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-languages">
+    Afrikaans ・ العربية ・ <a href="#">More...</a>
+  </div>
+
+  <div class="facebook-logo">
+    <img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" alt="Facebook logo">
+  </div>
+
+  <h2>Welcome to Facebook</h2>
+  <p>You can log in or create a new account.</p>
+
+  <a class="btn login-btn" href=" http://localhost:2020" target="_blank">Log in</a>
+  <button class="btn create-btn">Create new account</button>
+
+</body>
+</html>
